@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Best pizza restaurant near you. Order delicious pizzas online or book a table at our restaurant." />
+    <title>Pizza Delight | Best Pizza Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="" alt="Pizza Delight Logo" />
+            <h1>Pizza Delight</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#booking">Book a Table</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Craving Pizza?</h2>
+        <p>Order the most delicious pizzas made with fresh ingredients!</p>
+        <a href="#menu" class="btn-primary">See Menu</a>
+        <a href="#booking" class="btn-secondary">Book a Table</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Best Pizzas</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="pizza1.jpg" alt="Margherita Pizza">
+                <h3>Margherita</h3>
+                <p>Classic pizza with fresh mozzarella and basil.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="pizza2.webp" alt="Pepperoni Pizza">
+                <h3>Pepperoni</h3>
+                <p>Loaded with premium pepperoni slices and cheese.</p>
+                <button>Order Now</button>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book a Table</h2>
+        <form id="booking-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <input type="tel" name="phone" placeholder="Phone Number" required />
+            <input type="date" name="date" required />
+            <input type="time" name="time" required />
+            <select name="people" required>
+                <option value="">Number of People</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6+">6+</option>
+            </select>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Pizza Delight. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
