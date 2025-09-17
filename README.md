@@ -31,5 +31,5 @@ Optional tools/libraries (if used):
 
 ---
 
-## 📂 Project Structure
+
 
